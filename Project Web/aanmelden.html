@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DFDS Verhalen</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/DFDS_Logo_Positiv_200x200px.png" alt="DFDS Logo"></a>
+        <input type="search" name="zoeken" placeholder="Zoeken">
+        <ul>
+            <li><a href="index.html">Verhalen</a></li>
+            <li><a href="aanmelden.html">Aanmelden</a></li>
+        </ul>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>AANMELDEN</h1>
+        </section>
+
+        <form method="post" action="#" autocomplete="on">
+            <fieldset>
+                <legend>Personalia</legend>
+                <label for="naam">
+                    Voornaam
+                </label>
+                <input type="text" id="naam" required>
+                <label for="tussenvoegsel">
+                    Tussenvoegsel
+                </label>
+                <input type="text" id="tussenvoegsel">
+                <label for="achternaam">
+                    Achternaam
+                </label>
+                <input type="text" id="achternaam" required>
+                <p class="feedback">Dit gedeelte is goed ingevuld</p>
+            </fieldset>
+            <fieldset>
+                <legend>Adres</legend>
+                <label for="straat">
+                    Straat
+                </label>
+                <input type="text" id="straat" required>
+                <label for="postcode">
+                    Postcode
+                </label>
+                <input type="text" id="postcode" required>
+                <label for="huisnummer">
+                    Huisnummer
+                </label>
+                <input type="number" id="huisnummer" required>
+                <label for="telefoonnummer">
+                    Telefoonnummer
+                </label>
+                <input type="tel" id="telefoonnummer" required>
+                <p class="feedback">Dit gedeelte is goed ingevuld</p>
+            </fieldset>
+            <fieldset>
+                <legend>Online</legend>
+                <label for="email">
+                    E-mailadres
+                </label>
+                <input type="email" id="email" required>
+                <label for="wachtwoord">
+                    Wachtwoord
+                </label>
+                <input type="password" id="wachtwoord" required>
+                <p class="feedback">Dit gedeelte is goed ingevuld</p>
+            </fieldset>
+
+            <button type="submit">Aanmelden</button>
+        </form>
+
+    </main>
+
+</body>
+
+</html>
